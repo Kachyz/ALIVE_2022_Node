@@ -1,9 +1,12 @@
 // Importar el paquete 'express' para poder usarlo
 const express = require('express')
-
+let cors = require('cors')
+ 
 // Inicializamos una instancia express
 // app se vuelve el servidor
 const app = express()
+
+app.use(cors())
 
 // Declarar un puerto
 const PORT = 3000
