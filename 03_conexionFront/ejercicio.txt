@@ -1,0 +1,13 @@
+1) Crea una endpoint en el backend que mediante la ruta reciba un número.
+  * El backend deberá evaluar el número y realizar lo necesario para retornar como respuesta el triple del valor recibido
+  * El frontend, además de realizar la petición, debe mostrar el número involucrado y el resultado en pantalla 
+
+2) Crea un endpoint en el backend que reciba dos números, realice la multiplicación de los mismos y retorne a la petición el siguiente objeto
+{
+  primer: number,
+  segundo: number,
+  resultado: number,
+}
+
+3) Crea un endpoint que retorne un arreglo que contenga N objetos con información de alumnos.
+  * Mostrar, de manera libre, estos valores en un HTML
